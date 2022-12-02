@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+	<title>
+		Registration-Form
+	</title>
+</head>
+
+<body>
+<style>
+   body {
+      background-image:
+	  url("https://th.bing.com/th/id/OIP.OdEKkRouuKbFDag1o-SdXAHaEo?pid=ImgDet&rs=1");
+	  background-repeat: no-repeat;
+	  background-size: 100% 45%;
+	  }
+ </style>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+<h1 align=center><font face = "amasis mt pro" size="10" color="white"><b> Registration-Form</b> </font> </h1>
+	<br><br><br><br><br><br><br><br>
+	<form>
+		<table>
+			<tr>
+				<td width=300 height=100>
+					<label for="First">First Name</label>
+					<input type="text" minlength="5" id="First" required placeholder="First Name"/>
+				</td>
+				<td width=300 height=100>
+					<label for="Last">Last Name</label>
+					<input type="text" minlength="4" id="Last" required placeholder="Last Name"/>
+				</td>
+			</tr>
+		</table>
+		 <label for= "email_id" >E-Mail Id </label>		
+		<input type="text" id="email_id"><br><br><br>
+	    	
+		<label for="date">Date of Birth:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+		<input type="date" id="date" required placeholder="Birth"/>
+				
+	     <br><br>
+		 <h3>Select:</h3>
+		 <input type="radio" name="course" id="CYS">
+		 <label for= "CYS"> Student </label>
+		 <br>
+		 <input type="radio" name="course" id="CSE">
+		 <label for= "CSE"> Professional </label>
+		 <br><br>
+				
+					<label for="reg">Select any:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<select id="reg">
+					    <option value="none" selected disabled hidden> Select Event</option>
+						<option value="hackathon"> HACKATHON</option>
+						
+						<option value="Conference">PAPER PRESENTATION</option>
+						<option value="CTF-1">PROJECT PRESENTATION</option>
+						<option value="CTF-2">WEB DESIGNING</option>
+					</select><br><br><br>
+		<input type="submit">
+		<input type="reset" value="reset">
+				
+	</form>
