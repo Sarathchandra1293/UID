@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+   <head>
+      <title> Registration Form </title>
+   </head>
+    <style>
+	*{
+	margin: 0;
+	padding: 0;
+}
+    body{
+	   background: url("Chennai-Campus.jpg");
+	   background-size: 100%;
+	   background-position: -400px 0px;
+    }
+        div.main{
+			width: 700px;
+			margin: 100px auto 0px auto;
+		}
+		  h2{
+			  text-align: center;
+			  padding: 20px;
+			  font-family: sans-serif;
+		  }
+			  div.register{
+				  background-color:rgba(0,0,0,0.5);
+				  width: 100%;
+				  font-size: 18px;
+				  border-radius:10px;
+				  border:1px solid rgba(255,255,255,0.3);
+				  box-shadow:2px 2px 15px
+				  rgba(0,0,0,0.3);
+				  color:#fff;
+			  }
+			      form#register{
+					  margin: 40px
+				  }
+				     label{
+						 font-family: sans-serif;
+						 font-size:18px;
+						 font-style: italic;
+					 }
+					     input#name{
+							 width:300px;
+							 border:1px solid #ddd;
+							 outline: 0;
+							 padding: 7px;
+							 background-color: #fff;
+							 box-shadow:insert 1px 1px 5px
+							 rgba(0,0,0,0.3);
+						 }
+						     input#submit{
+								 width: 200px;
+								 padding: 7px;
+								 font-size: 16px;
+								 font-family: san-serif;
+								 font-weight: 600;
+								 border-radius: 3px;
+								 background-color: rgba(250,100,0,0.8);
+								 color: #fff;
+								 cursor: pointer;
+								 border: 1px solid
+								 rgba(255,255,255,0.3);
+								 box-shadow: 1px 1px 5px
+								 rgba(0,0,0,0.3);
+							 }
+							    label,span,h2{
+									text-shadow: 1px 1px 5px
+									rgba(0,0,0,0.3);
+								}
+	</style>
+      <body>
+          <img src="logo.jpg" width="150px" height="150px" style="position:absolute; top:0%;" >
+          <h1 align="right"> E.sarath chandra </h1>
+          <h1 align="right"> ch.en.u4cys21017 </h1> 
+	     <div class="main">
+		    <div class="register">
+		      <h2 style="color:red"> AMRITA CYBER NATION 2022</h2>
+			  <form id="register" method="post">
+			     <label> First name: </label>
+			     <input type="text" name="fname" id="name" placeholder="Enter your First name" required />
+			     <br><br>
+				 <label> Last name: </label>
+			     <input type="text" name="lname" id="name" placeholder="Enter your Last name" required />
+			     <br><br>
+				 <label>Phone: </label>
+				 <input type="text" placeholder="+91 xxxxxxxxxx" pattern="[0-9]{10}" required />
+				 <br><br>
+                 <label>Date of birth
+                  <input type="date" name="Date of birth" required />
+                  </label>
+			     
+			     <br><br>
+				 <label> Email: </label>
+			     <input type="email" name="name" id="name" placeholder="Enter gmail @gmail.com" required />
+			     <br><br>
+				 <label> Profession: </label> 
+              <select>
+              <option value="Event" selected disables hidden>Profession</option>
+              <option value="Students">Students</option>
+              <option value="Research">Research Scholars/Faculty Members</option>
+              <option value="others">Others</option>
+              </select>
+			  <br><br>
+				 <label>Select Event </label>
+		<select name="event" id="event" required />
+		       <option value="none" selected disabled hidden> Select an Event </option>
+		       <option value="con" > CYBER CONCLAVE </option>
+			   <option value="fest"> CYBER TECH FEST </option>
+			   <option value="abyan"> CYBER ABHYAN</option>
+			   <option value="meet"> CYBER INDUSTRIAL MEET </option>
+		</select>
+		      <br><br>
+		      <label>ID Proof: </label>
+              <input type="file" name="idproof" required />
+			  <br><br>
+				 <label> Gender: </label>
+				 &nbsp;&nbsp;&nbsp;&nbsp;
+				 <input type="radio" name="gender" id ="male">
+				 &nbsp;
+				 <span id="male">Male </span>
+				 &nbsp;&nbsp;&nbsp;&nbsp;
+				 <input type="radio" name="gender" id ="female">
+				 &nbsp;
+				 <span id="female">Female </span>
+				 &nbsp;&nbsp;&nbsp;&nbsp;
+				 <input type="radio" name="gender" id ="other">
+				 &nbsp;
+				 <span id="other">other </span>
+				 <br><br>
+				 <input type="submit" value="submit" name="submit" id="submit">
+				 <input type="reset" value="reset" name="reset" id="submit">
+			  </form>
+	         </div>
+		 </div>
+	  </body>
+      
+</html>
