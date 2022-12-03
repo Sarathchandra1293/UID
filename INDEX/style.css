@@ -1,0 +1,20 @@
+     h3{
+		 font-family: sans-serif;
+	   }
+	   body{
+		   background: linear-gradient(#ffcff1,#fcffa4);
+		   height: 750px;
+	   }
+	  
+	  div.main{
+			      background:linear-gradient(lightblue,pink);
+				  border-radius:10px;
+				  padding: 10px 200px 20px 40px;
+				  margin: 250px;
+				  position:absolute;
+				  top:10px;
+				  left:230px;
+			  }
+	  .mai{
+		  margin-left:120px;
+	  }
