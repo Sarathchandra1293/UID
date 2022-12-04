@@ -1,0 +1,41 @@
+.mapimg {
+	
+	border-width: 4px;
+	border-color: #c91a43;
+	border-style: outset;
+}
+
+img{
+	position: relative;
+}
+p {
+	text-shadow: darkgray;
+	color: #667733;
+	font-size: 20px;
+}
+.c1 {
+	background-color: #c91a43;
+}
+.c1 p {
+	color: #ffffff;
+	text-shadow: black;
+	font-size: 30px;
+}
+
+spcls {
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	color: #ffffff;
+}
+
+.spcls ul {
+	display: inline-block;
+}
+
+.c2 {
+	background-color: #c91a43;
+	color: #ffffff;
+	font-size: 15px;
+}
+
