@@ -1,0 +1,121 @@
+<!DOCTYPE hmtl>
+    <head>
+            <style>
+                img
+                {
+                    height: 400px;
+					width: 600px;
+                }
+                body 
+                {
+
+                    background:linear-gradient(to top left,#0ad909, #e170b3);
+                }   
+              .ab{
+                background-color:#6195ed;
+	            border-radius: 30px;
+              }
+                div{
+                    padding-left: 12px;
+
+                }
+                .txt{
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                }
+
+
+            </style>
+            <script>
+            var i=0;
+            var j=0;
+            var d=0;
+            var h=0;
+            var s=0;
+            function pikachu()
+            {
+                if(i==0)
+                {
+                    document.getElementById("thunder").src = "pkmn1.jpg";
+                    i=1;
+                }
+                else
+                {
+                    document.getElementById("thunder").src = "pkmn8.jpg";
+                    i=0;
+                }
+            }
+            function ash()
+            {
+                
+                if(j==0)
+                {
+                    document.getElementById("ashk").src ="pkmn4.jpg";
+                    j=1;
+                }
+                else
+                {
+                    document.getElementById("ashk").src = "pkmn3.jpg";
+                    j=0;
+                }
+            }
+            
+            function greninja()
+            {
+                if(h==0)
+                {
+                    document.getElementById("gre").src= "pkmn2.jpg";
+                    h=1;
+                }
+
+                else
+                {
+                    document.getElementById("gre").src="pkmn7.jpg";
+
+                    h=0;
+                }
+
+            }
+
+            function aloha()
+            {
+                if(s==0)
+
+                {
+                    document.getElementById("lunala").src="pkmn6.jpg";
+                    s=1;
+                }
+                else
+                {
+                    document.getElementById("lunala").src= "pkmn5.jpg";
+                    s=0;
+                }
+            }
+        </script>
+</head>
+<body>
+    
+    <div class="ab" >
+        
+        <h1  class="txt"  align="center">Mouse Event</h1>
+          
+    </div>
+    <h3>E.SARATH CHANDRA<br> CH.EN.U4CYS21017</h3> 
+
+    <center><h1 style="color: #6004AD;">POKEMON</h1>   
+        <h3 style="color: #940000;">Left Click</h3>
+
+        <img src= "pkmn1.jpg"  onclick="pikachu()" id="thunder">
+        <br>
+        <h3 style="color: #940000;">Hover</h3>
+        <img src="pkmn4.jpg" onmouseenter="ash()" onmouseleave="ash()" id="ashk">
+        <br>
+        <h3 style="color: #940000;">Double Click</h3>
+        <img src="pkmn6.jpg" height="300px"  ondblclick="aloha()" id="lunala">
+        <br>
+        <h3 style="color: #940000;">Right Click</h3>
+        <img src="pkmn2.jpg" height="300px" contextmenu="ninja" oncontextmenu="greninja()" id="gre">
+        
+    </center>
+</body>
+</html>
