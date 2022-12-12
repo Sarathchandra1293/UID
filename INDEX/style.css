@@ -11,7 +11,7 @@ p {
 	font-size: 25px;
 	color: black;
 	text-align: center;
-	background-image: linear-gradient(to left,lightgreen,lightblue);
+	background: linear-gradient(to left,lightgreen,lightblue);
 	}
 	
 
@@ -38,9 +38,9 @@ div.uid1 {
 }
 div.container{
   padding: 10px;
-  text-align: left;
+  text-align: center;
   font-family: Lucida Sans Unicode;
-  background-color:skyblue;
+  background: linear-gradient(to left,lightpink,lightgreen);
 }
 div.uid2 {
 	width: 250px;
